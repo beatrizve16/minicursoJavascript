@@ -1,0 +1,10 @@
+let x1 = prompt("X1=")
+let x2 = prompt("X2=")
+let y1 = prompt("y1=")
+let y2 = prompt("y2=")
+
+
+let distancia = Math.sqrt(Math.pow((x2-x1),2)+Math.pow((y2-y1),2))
+let arredondar = distancia.toFixed(4)
+alert("A distancia entre os pontos e  = " + arredondar)
+
