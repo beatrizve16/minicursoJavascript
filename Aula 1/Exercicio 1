@@ -1,0 +1,9 @@
+let numeroFuncionario = prompt("Numero de funcionarios:")
+let numHoras = prompt("Numero de horas do funcionario:")
+let valorPorHora = prompt("Valor por hora recebido:")
+
+let salario = numHoras * valorPorHora
+let arredondar = salario.toFixed(2)
+
+alert("Funcionarios = " + numeroFuncionario)
+alert("Salario = U$ " + arredondar)
