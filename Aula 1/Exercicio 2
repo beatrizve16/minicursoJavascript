@@ -1,10 +1,17 @@
+// Leia os quatro valores correspondentes 
+// aos eixos x e y de dois pontos quaisquer
+//  no plano, p1(x1, y1) e p2(x2, y2) e calcule
+//   a distância entre eles, mostrando 4 casas
+//    decimais após a vírgula, segundo a fórmula:
+
+
 let x1 = prompt("X1=")
 let x2 = prompt("X2=")
 let y1 = prompt("y1=")
 let y2 = prompt("y2=")
 
 
-let distancia = Math.sqrt(Math.pow((x2-x1),2)+Math.pow((y2-y1),2))
+let distancia = Math.sqrt((Math.pow((x2-x1),2)+ Math.pow((y2-y1),2)))
 let arredondar = distancia.toFixed(4)
 alert("A distancia entre os pontos e  = " + arredondar)
 
